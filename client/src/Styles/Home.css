@@ -1,0 +1,83 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App-header {
+  background-color:#007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  position: relative;
+
+}
+.App-header img{
+    height: 70px;
+}
+
+nav a{
+    text-decoration: none; 
+    color: #fff;
+}
+
+.App-header nav {
+  margin-top: 20px;
+  position: absolute;
+  right:50px;
+  font-size: 1.2rem;
+
+}
+
+.CardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .Card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .Card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .Card img {
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .Card h2 {
+    margin-top: 0;
+  }
+  
+  .Card p {
+    color: #666;
+  }
+  
+  .label {
+    background-color: #1f0686;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+footer {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
